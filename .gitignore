@@ -1,0 +1,7 @@
+# 工作产物（数据与派生序列一律不入库，见 docs/data.md）
+work/
+compass_out/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/

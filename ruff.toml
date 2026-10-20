@@ -1,0 +1,6 @@
+# 只查语法错误与未用/未定义名，不做风格约束（与上游项目约定一致）
+[lint]
+select = ["E9", "F"]
+
+[lint.per-file-ignores]
+"scripts/viz_v3.py" = ["F841"]
