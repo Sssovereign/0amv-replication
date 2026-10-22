@@ -1,3 +1,6 @@
+# 制品目录为核准生成物(与 Release 逐字节一致),不参与 lint
+extend-exclude = ["tools/compass_0amv/artifact"]
+
 # 只查语法错误与未用/未定义名，不做风格约束（与上游项目约定一致）
 [lint]
 select = ["E9", "F"]

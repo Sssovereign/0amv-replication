@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+# 制品内自带测试经 tools/compass_0amv/tests/test_entry.py 的子进程套件运行,
+# 根收集忽略 artifact 目录避免重复收集/导入路径冲突。
+# The vendored artifact's own suite runs via test_entry.ArtifactSelfTests.
+testpaths = ["tests", "tools"]
+addopts = "--ignore=tools/compass_0amv/artifact"

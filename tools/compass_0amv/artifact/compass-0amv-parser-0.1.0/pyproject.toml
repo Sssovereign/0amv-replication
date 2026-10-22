@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "compass-0amv-parser"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["pandas>=2.0,<4"]
+[tool.setuptools.packages.find]
+where = ["src"]
