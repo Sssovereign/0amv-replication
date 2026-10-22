@@ -1,0 +1,14 @@
+{
+  "derivation": "Local derivative of the MIT-licensed upstream; no private data or trading logic.",
+  "files": {
+    "LICENSE": "37b472d358c91c1de41f3f42128f79ed7a2e7b425dcfe3aca59c8c9bdb7ac816",
+    "README.md": "601094c5a39b249fc87014bf7f48e388beffad3b5b5dc68f41142c57d771be4f",
+    "pyproject.toml": "8f32e49c01e6e7182ed606c237130a7362f9c79c3cf570c7bc9ae4f9cabbc187",
+    "src/compass_0amv/__init__.py": "f1ad7bd34c12dbdaaf05020442f36233e3334f0267df0901c27633f0a71ca5af",
+    "src/compass_0amv/extract_0amv.py": "f1b0a98f85d5e11bfda0adfb0f9f965f9c4ea405d11b87fbbf90fcfaf8f3cc06",
+    "tests/test_extractor.py": "64757485ee8e7693b51e68a284b5355752cc438b850fbc1f9294d26fc5eee201"
+  },
+  "sourceUpstream": "https://github.com/ZXcharT/compass-0amv-extractor",
+  "sourceUpstreamCommit": "309f69908b38353ea2132c4bd8bb394dac677eb8",
+  "version": "0.1.0"
+}
